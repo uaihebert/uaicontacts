@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+    <!-- Master -->
+    <definition name="master.page" template="/public/template/master.jsp">
+        <put-attribute name="header" value="/public/template/header.jsp"/>
+        <put-attribute name="footer" value="/public/template/footer.jsp"/>
+    </definition>
+
+    <!--  Pages -->
+    <definition name="welcomePage" extends="master.page">
+        <put-attribute name="body" value="/protected/welcomePage.jsp"/>
+    </definition>
+    <definition name="contactsList" extends="master.page">
+        <put-attribute name="body" value="/protected/contacts/contacts.jsp"/>
+    </definition>
+    <definition name="login" extends="master.page">
+        <put-attribute name="header" value=""/>
+        <put-attribute name="footer" value=""/>
+        <put-attribute name="body" value="/public/login.jsp"/>
+    </definition>
+</tiles-definitions>
