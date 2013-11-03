@@ -13,4 +13,5 @@ This project is a full web application with the following technologies:
 * JQuery - Combined with Twitter Bootstrap to give some animation to our HTML components
 
 The post in Portuguese can be found here: http://uaihebert.com/?p=1913
+
 The post in English can be found here: http://uaihebert.com/?p=2008
