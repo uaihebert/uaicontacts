@@ -135,7 +135,7 @@ function contactsController($scope, $http) {
     }
 
     $scope.resetContact = function(){
-        $scope.selectedContact = {};
+        $scope.contact = {};
     };
 
     $scope.createContact = function (newContactForm) {
