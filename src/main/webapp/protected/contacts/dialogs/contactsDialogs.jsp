@@ -203,17 +203,11 @@
     </div>
     <div class="modal-body">
         <form name="deleteContactForm" novalidate>
-            <input type="hidden"
-                   required
-                   ng-model="contact.id"
-                   name="id"
-                   value="{{contact.id}}"/>
-
             <p><spring:message code="delete.confirm"/>:&nbsp;{{contact.name}}?</p>
 
             <input type="submit"
                    class="btn btn-inverse"
-                   ng-click="deleteContact(deleteContactForm);"
+                   ng-click="deleteContact();"
                    value='<spring:message code="delete"/>'/>
             <button class="btn btn-inverse"
                     data-dismiss="modal"
