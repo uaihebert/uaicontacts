@@ -1,6 +1,8 @@
 uaicontacts
 ===========
 
+### BuildStatus ---> [![Build Status](https://travis-ci.org/uaihebert/uaicontacts.svg?branch=master)](https://travis-ci.org/uaihebert/uaicontacts)
+
 Project of the post uaiContacts of the blog uaiHebert.com
 
 This project is a full web application with the following technologies:
