@@ -12,15 +12,15 @@
             maxIdle="3"
             minIdle="1"
             maxWait="5000"
-            username="postgres"
-            password="postgres"
-            driverClassName="org.postgresql.Driver"
+            username="root"
+            password="root"
+            driverClassName="org.gjt.mm.mysql.Driver"
             validationQuery="SELECT 'OK'"
             testWhileIdle="true"
             testOnBorrow="true"
             numTestsPerEvictionRun="5"
             timeBetweenEvictionRunsMillis="30000"
             minEvictableIdleTimeMillis="60000"
-            url="jdbc:postgresql://localhost:5432/uaiContacts" />
+            url="jdbc:mysql://localhost:3306/uaiContacts" />
 
 </Context>
